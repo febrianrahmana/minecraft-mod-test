@@ -1,30 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "timer",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
+  "name": "Timer Mod",
+  "description": "This is a timer mod to automatically call API!",
+  "authors": ["Febrian"],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://febrianrahmana.github.io/"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/timer/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
+    "main": ["net.febrian.timer.TimerMod"],
+    "server": ["net.febrian.timer.TimerModServer"]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": ["timer.mixins.json"],
 
   "depends": {
     "fabricloader": ">=0.14.19",
