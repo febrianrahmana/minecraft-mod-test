@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Fabric Mod Test
 
-## Setup
+## Context
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This repository was made to experiment in Minecraft modding using Fabric. Since I'm hosting a minecraft server using Fabric on AWS EC2, I needed a way to automatically shut down the server when there are no players around.
 
-## License
+## Feature
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Currently planned features are to create a 10 minute(ish) timer at 0 players online that will call the API to turn off the server.
