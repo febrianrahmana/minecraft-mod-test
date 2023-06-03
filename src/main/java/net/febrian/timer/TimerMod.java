@@ -2,9 +2,6 @@ package net.febrian.timer;
 
 import net.fabricmc.api.ModInitializer;
 
-import java.util.concurrent.ScheduledThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
